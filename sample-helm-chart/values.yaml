@@ -1,0 +1,6 @@
+replicaCount: 1
+backend:
+  image: backend-app
+  redisUri: redis://redis-svc:6379
+redis:
+  image: redis:alpine
